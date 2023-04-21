@@ -46,7 +46,16 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge
-  - type: textarea
+        
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority States
+      multiple: false
+      options:
+        - Highest
+        - Lowest
+        - Noah's Problem
     id: logs
     attributes:
       label: Relevant log output
