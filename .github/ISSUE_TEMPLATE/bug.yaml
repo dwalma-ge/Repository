@@ -55,7 +55,7 @@ body:
       options:
         - Highest
         - Lowest
-        - Noah's Problem
+        - Problem
     id: logs
     attributes:
       label: Relevant log output
